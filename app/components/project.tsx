@@ -55,7 +55,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
         group-even:group-hover:rotate-2
 
         group-even:right-[initial] group-even:-left-40"
-npm start      ></Image>
+      ></Image>
     </section>
   );
 }
