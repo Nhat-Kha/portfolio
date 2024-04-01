@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated VTC Academy",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hoành",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 years of studying. I immediately found a job as a FullStack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hoành",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on a team project as a front-end developer for 6 months in 1 job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "10/11/20123 - 27/03/2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hoành",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "10/10/2023 - present",
   },
 ] as const;
 
@@ -82,19 +82,12 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
   "Next.js",
+  "React",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
