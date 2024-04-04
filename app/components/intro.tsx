@@ -8,6 +8,8 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import avatar from "@/public/185831597_1390746627970549_3840110546714314885_n.jpg";
+
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
@@ -31,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://github.com/shadcn.png"
+              src={avatar}
               alt="Ricky Nguyen"
               width="192"
               height="192"
