@@ -6,6 +6,7 @@ import cloudinaryphoto from "@/public/cloudinary-photo.png";
 import jobsearch from "@/public/jobsearch.png";
 import jobPortal from "@/public/image.png";
 import gemini from "@/public/gemini-clone.png";
+import { link } from "fs";
 
 export const links = [
   {
@@ -68,6 +69,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: cloudinaryphoto,
+    link: "https://cloudinary-photos-three.vercel.app/",
   },
   {
     title: "Job search",
@@ -75,6 +77,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: jobsearch,
+    link: "https://jobportal-blush.vercel.app/",
   },
   {
     title: "Job Portal",
@@ -82,12 +85,14 @@ export const projectsData = [
       "Job Portal is a web application that connects job seekers with employers, allowing them to search and apply for jobs and manage their job postings.",
     tags: ["React", "NodeJS", "MongoDB", "Tailwind"],
     imageUrl: jobPortal,
+    link: "https://jobportal-blush.vercel.app/",
   },
   {
     title: "Gemini Clone",
     description: "A website about AI chat based on Google's Gemini.",
     tags: ["React"],
     imageUrl: gemini,
+    link: "https://gemini-clone-hazel.vercel.app/",
   },
 ] as const;
 
