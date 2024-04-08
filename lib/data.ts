@@ -4,7 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cloudinaryphoto from "@/public/cloudinary-photo.png";
 import jobsearch from "@/public/jobsearch.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import jobPortal from "@/public/image.png";
+import gemini from "@/public/gemini-clone.png";
 
 export const links = [
   {
@@ -69,11 +70,24 @@ export const projectsData = [
     imageUrl: cloudinaryphoto,
   },
   {
-    title: "Job Portal",
+    title: "Job search",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: jobsearch,
+  },
+  {
+    title: "Job Portal",
+    description:
+      "Job Portal is a web application that connects job seekers with employers, allowing them to search and apply for jobs and manage their job postings.",
+    tags: ["React", "NodeJS", "MongoDB", "Tailwind"],
+    imageUrl: jobPortal,
+  },
+  {
+    title: "Gemini Clone",
+    description: "A website about AI chat based on Google's Gemini.",
+    tags: ["React"],
+    imageUrl: gemini,
   },
 ] as const;
 
