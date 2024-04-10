@@ -19,29 +19,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        After completing{" "}
+        <span className="font-medium">the capstone project</span> assigned by
+        the school, I proactively sought out and learned additional programming
+        languages. I continuously strive to improve myself and develop new
+        skills to prepare for internships and employment opportunities. In
+        addition to working on personal projects, I explore and study the
+        documentation of new libraries for the languages I am learning.
       </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        video games, watching movies, and reading books for relaxation (although
+        I don't read extensively). I also enjoy{" "}
+        <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>
   );
