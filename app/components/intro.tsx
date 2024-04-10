@@ -64,11 +64,20 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Ricky</span>. I'm a Full-stack
-        developer with <span className="font-bold">2 years of experience</span>{" "}
-        and I've also spent{" "}
-        <span className="font-bold">2 years studying at school</span>. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        developer. I enjoy building <span className="italic">sites & apps</span>
+        . My focus is{" "}
         <span className="underline">React (Next.js) and MERN stack</span>.
+        <p>
+          <span>
+            My goal is to become{" "}
+            <span className="underline">
+              a proficient full-stack programmer
+            </span>
+            , capable of developing entire websites from front-end to back-end.
+            To achieve this goal, I constantly strive to update with the latest
+            technologies and participate in real-world projects.
+          </span>
+        </p>
       </motion.h1>
 
       <motion.div
