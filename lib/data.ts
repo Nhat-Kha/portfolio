@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaProjectDiagram } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cloudinaryphoto from "@/public/cloudinary-photo.png";
 import jobsearch from "@/public/jobsearch.png";
@@ -38,7 +38,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated VTC Academy",
-    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hoành",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hành",
     description:
       "I graduated after 3 years of studying. I immediately found a job as a FullStack developer.",
     icon: React.createElement(LuGraduationCap),
@@ -46,19 +46,27 @@ export const experiencesData = [
   },
   {
     title: "Front-End Developer",
-    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hoành",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hành",
     description:
       "I worked on a team project as a front-end developer for 6 months in 1 job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "10/11/20123 - 27/03/2024",
+    date: "10/11/2021 - 27/03/2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hoành",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hành",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "10/10/2023 - present",
+  },
+  {
+    title: "Completed Capstone Project",
+    location: "TP. Hồ Chí Minh, Quận 10, Lê Đại Hành",
+    description:
+      "I completed my project with the idea of a job search website, featuring a user-friendly interface and easy-to-perform actions.",
+    icon: React.createElement(FaProjectDiagram),
+    date: "10/10/2023 - 27/04/2024",
   },
 ] as const;
 
